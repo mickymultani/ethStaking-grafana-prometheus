@@ -7,7 +7,7 @@ a custom Python exporter for fetching data from the beaconcha.in API, and Grafan
 
 
 
-## Virtual Environment Details:
+### Virtual Environment Details:
 ```
 conda create --name staking_dashboard python=3.10
 conda activate staking_dashboard
@@ -61,12 +61,14 @@ Set the URL to http://localhost:9090.
 Create a dashboard and panel for visualizing the validator balance. 
 Use the query validator_balance{validator_id="237172"}.
 
+
+
 *******************************************************************************************************************
 
+# INFLUXDB OPTIO BELOW NOT WORKING (POSSIBLY FLUX ISSUES)
 
-
-
-### InfluxDB option not working (flux issues?!)------------------------------------
+*******************************************************************************************************************
+### InfluxDB option 
 Install InfluxDB
 Installed influxdb from the website https://github.com/influxdata/influxdb/releases/tag/v2.7.5
 version installed: influxdb2_2.7.5-1_amd64.deb
@@ -78,4 +80,4 @@ version installed: influxdb2_2.7.5-1_amd64.deb
 ### InfluxDB Operator API token: 
 org = StakeMax
 bucket = stake-poc
-----------------------------------------------------------------------------------------------
+
