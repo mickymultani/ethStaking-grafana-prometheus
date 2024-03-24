@@ -3,6 +3,10 @@ Set up a monitoring solution for tracking Ethereum validator balances using Prom
 a custom Python exporter for fetching data from the beaconcha.in API, and Grafana for visualization.
 
 
+![Screenshot from 2024-03-24 00-29-23](https://github.com/mickymultani/ethStaking-grafana-prometheus/assets/42827572/ab73d43f-3250-4988-a8ce-adace0f2e7a5)
+
+
+
 ## Virtual Environment Details:
 ```
 conda create --name staking_dashboard python=3.10
