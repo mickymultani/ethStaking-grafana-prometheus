@@ -1,12 +1,19 @@
-## Virtual Environment Details:
+# Monitoring Ethereum Validator Balances with Prometheus and Grafana
+Set up a monitoring solution for tracking Ethereum validator balances using Prometheus for data storage, 
+a custom Python exporter for fetching data from the beaconcha.in API, and Grafana for visualization.
 
+
+## Virtual Environment Details:
+```
 conda create --name staking_dashboard python=3.10
 conda activate staking_dashboard
+```
 
 Install necessary packages:
-- conda install requests
-- conda install pandas
-- conda install -c conda-forge influxdb-client
+```
+conda install requests pandas
+conda install -c conda-forge influxdb-client
+```
 
 ### 1. Write an adapter for Promethus (scraping end point)
 See code for python_exporter.py in the repo
