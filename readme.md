@@ -50,9 +50,13 @@ Set the URL to http://localhost:9090.
 Create a dashboard and panel for visualizing the validator balance. 
 Use the query validator_balance{validator_id="237172"}.
 
+*******************************************************************************************************************
 
-------------- InfluxDB option not working (flux issues?!)------------------------------------
-## Install InfluxDB
+
+
+
+### InfluxDB option not working (flux issues?!)------------------------------------
+Install InfluxDB
 Installed influxdb from the website https://github.com/influxdata/influxdb/releases/tag/v2.7.5
 version installed: influxdb2_2.7.5-1_amd64.deb
 
@@ -61,7 +65,6 @@ version installed: influxdb2_2.7.5-1_amd64.deb
 - Enable influxdb on startup: sudo systemctl enable influxdb
 
 ### InfluxDB Operator API token: 
-pgyLUw-IaZrxhwtLOw9Lal__R9BGnTfnACV40d2xAmXTGwTu9tcWArQox-K9JnF7VHgbWGx5a5KLq9fIoabhug==
 org = StakeMax
 bucket = stake-poc
 ----------------------------------------------------------------------------------------------
